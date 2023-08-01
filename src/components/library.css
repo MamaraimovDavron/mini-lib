@@ -18,19 +18,35 @@
 .container-library .row .col-3 .card .card-header {
   width: 100%;
   height: 10%;
+  padding: 5px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
 }
 .container-library .row .col-3 .card .card-header h4 {
-  font-size: 20px;
+  font-size: 18px;
 }
 .container-library .row .col-3 .card .card-body {
-  height: 30%;
+  height: 60%;
 }
 .container-library .row .col-3 .card .card-body img {
   width: 100%;
-  height: 80%;
+  height: 100%;
   border-radius: 4px;
+  box-shadow: 0px 0px 12px black, 0px 0px 5px black;
 }
 .container-library .row .col-3 .card .card-footer {
   width: 100%;
-  height: 15%;
+  height: 20%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.container-library .row .col-3 .card .card-footer h4 {
+  font-size: 15px;
+}
+.container-library .row .col-3 .card .card-footer h5 {
+  font-weight: bold;
 }/*# sourceMappingURL=library.css.map */

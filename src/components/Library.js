@@ -29,18 +29,39 @@ class Library extends Component{
                         />
 
                     <Card 
-                            name="The Hunger Games" 
-                            urlImg="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1586722975i/2767052.jpg" 
-                            author="Suzanne Collins"
-                            price="$50"
+                            name="To Kill a Mockingbird" 
+                            urlImg="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1553383690i/2657.jpg" 
+                            author="Harper Lee"
+                            price="$250"
                         />
 
 
                     <Card 
-                            name="The Hunger Games" 
-                            urlImg="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1586722975i/2767052.jpg" 
-                            author="Suzanne Collins"
-                            price="$50"
+                            name="The Book Thief" 
+                            urlImg="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1522157426i/19063.jpg" 
+                            author="Markus Zusak"
+                            price="$130"
+                        />
+
+                    <Card 
+                            name="Twilight" 
+                            urlImg="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1361039443i/41865.jpg" 
+                            author="Stephenie Meyer"
+                            price="$230"
+                        />
+
+                    <Card 
+                            name="Animal Farm" 
+                            urlImg="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1325861570i/170448.jpg" 
+                            author="George Orwell, Russel Baker"
+                            price="$130"
+                        />
+
+                    <Card 
+                            name="The Hobbit and The Lord of the Rings" 
+                            urlImg="https://images-na.ssl-images-amazon.com/images/S/compressed.photo.goodreads.com/books/1656625315i/30.jpg" 
+                            author="J.R.R. Tolkien"
+                            price="$160"
                         />
                 </div> 
             </div>
