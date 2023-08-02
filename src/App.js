@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Library from './components/Library';
+import Form from './components/Form';
 
 class App extends Component{
     state = {
@@ -22,11 +23,13 @@ class App extends Component{
         const { visibility } = this.state;
         return(
             <div className='container container-app text-center p-3'>
+               
                 <h1 className='m-3'>Welcome to Mini Library!</h1>
                 <button className='btn btn-primary m-3' onClick={this.showMe}>Show me !</button>
                 <button className='btn btn-danger m-3' onClick={this.close}>Close !</button>
                 
                 { visibility ? <Library /> : ""}
+                <Form />
             </div>
         )
     }
