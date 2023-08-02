@@ -8,6 +8,7 @@ class Form extends Component{
         lastName: "",
         email: "",
         isAgree: false,
+        visibility: false,
     };
 
 
@@ -56,9 +57,15 @@ class Form extends Component{
         alert("Congratulations!");
     };
 
+    componentWillUnmount(){
+        if(this.emailChecker){
+
+        }
+    }
+
 
     render(){
-        const { firstName, lastName, email, isAgree } = this.state;
+        const { firstName, lastName, email, isAgree, visibility } = this.state;
         return(
             <div className='container form-container' id='form-div'>
                 <form className='form-control'>
@@ -92,6 +99,7 @@ class Form extends Component{
                     <label htmlFor="checkbox">Do you love reading ?</label>
                 </div>
                     <button className='btn btn-success mt-2' onClick={this.emailChecker}>Submit</button>
+                    
                 </form>
             </div>
         )

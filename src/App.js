@@ -19,6 +19,7 @@ class App extends Component{
         })
     }
 
+
     render(){
         const { visibility } = this.state;
         return(
@@ -28,8 +29,9 @@ class App extends Component{
                 <button className='btn btn-primary m-3' onClick={this.showMe}>Show me !</button>
                 <button className='btn btn-danger m-3' onClick={this.close}>Close !</button>
                 
+                { !visibility ? <Form /> : "" }
                 { visibility ? <Library /> : ""}
-                <Form />
+                
             </div>
         )
     }
